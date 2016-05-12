@@ -1,4 +1,4 @@
-package com.alexkang.bluechat;
+package com.alexkang.Raahat;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

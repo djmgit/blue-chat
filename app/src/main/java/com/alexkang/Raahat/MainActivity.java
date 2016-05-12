@@ -1,4 +1,4 @@
-package com.alexkang.bluechat;
+package com.alexkang.Raahat;
 
 import android.app.Activity;
 import android.app.AlertDialog;

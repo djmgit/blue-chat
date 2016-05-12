@@ -4,14 +4,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context="com.alexkang.Raahat.MainActivity">
 
     <Button
         android:id="@+id/host_button"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:layout_gravity="top"
         android:background="@drawable/host_button"
+        android:layout_marginLeft="2sp"
+        android:layout_marginRight="2sp"
         android:textSize="140sp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
@@ -22,10 +25,14 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="2sp"
+        android:layout_marginRight="2sp"
         android:background="@drawable/join_button"
         android:textSize="140sp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
-        android:text="@string/join" />
+        android:text="@string/join"
+        android:layout_marginBottom="2sp"/>
 
 </LinearLayout>
